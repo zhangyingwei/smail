@@ -12,8 +12,9 @@ public class User {
         return username;
     }
 
-    public void setUsername(String username) {
+    public User setUsername(String username) {
         this.username = username;
+        return this;
     }
 
     public String getPassword() {
@@ -25,10 +26,12 @@ public class User {
     }
 
     public String getNikename() {
+        this.nikename = this.nikename == null ? this.username : this.nikename;
         return nikename;
     }
 
-    public void setNikename(String nikename) {
+    public User setNikename(String nikename) {
         this.nikename = nikename;
+        return this;
     }
 }

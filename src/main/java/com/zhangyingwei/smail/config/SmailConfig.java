@@ -144,7 +144,6 @@ public class SmailConfig {
             config.setProperty("mail.smtp.socketFactory.fallback", "false");
         }
         config.put("mail.smtp.auth", true);
-        System.out.println("config: "+config);
         return config;
     }
 }

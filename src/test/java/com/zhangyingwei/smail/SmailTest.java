@@ -2,6 +2,7 @@ package com.zhangyingwei.smail;
 
 
 import com.zhangyingwei.smail.config.SmailConfig;
+import com.zhangyingwei.smail.exception.SmailException;
 
 import javax.mail.MessagingException;
 import java.io.UnsupportedEncodingException;
@@ -11,10 +12,10 @@ import java.io.UnsupportedEncodingException;
  */
 
 public class SmailTest {
-    public static void main(String[] args) throws MessagingException, UnsupportedEncodingException {
+    public static void main(String[] args) throws MessagingException, UnsupportedEncodingException, SmailException {
         new Smail(new SmailConfig().setStarttls(true))
-                .auth("1170404227@qq.com", "723129")
+                .auth("treeholeb@126.com", "723129TreeHole")
                 .to("zhangyw_001@126.com")
-                .send("简历", "你好，我是某某介绍过来的", null);
+                .send("简历", "你好，我是某某介绍过来的");
     }
 }
