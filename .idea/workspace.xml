@@ -10,7 +10,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/zhangyingwei/smail/utils/SmailUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/zhangyingwei/smail/utils/SmailUtils.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/zhangyingwei/smail/SmailTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/zhangyingwei/smail/SmailTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/zhangyingwei/smail/SmailTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/zhangyingwei/smail/SmailTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -48,12 +48,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="108">
-                <caret line="6" column="52" lean-forward="false" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+              <first_editor relative-caret-position="198">
+                <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
                 <folding>
                   <marker date="1498719287671" expanded="true" signature="157:362" ph="{...}" />
                 </folding>
@@ -85,11 +85,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SmailTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SmailTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/zhangyingwei/smail/SmailTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="20" selection-end-column="1" />
+            <state relative-caret-position="288">
+              <caret line="16" column="52" lean-forward="false" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -170,12 +170,12 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhangyingwei/smail/config/SmailConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhangyingwei/smail/exception/SmailException.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/zhangyingwei/smail/SmailTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhangyingwei/smail/ISmail.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhangyingwei/smail/model/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhangyingwei/smail/TextSmail.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhangyingwei/smail/Smail.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/test/java/com/zhangyingwei/smail/SmailTest.java" />
       </list>
     </option>
   </component>
@@ -865,7 +865,7 @@
       <workItem from="1498704344372" duration="650000" />
       <workItem from="1498705309115" duration="107000" />
       <workItem from="1498705452221" duration="610000" />
-      <workItem from="1498719199205" duration="93000" />
+      <workItem from="1498719199205" duration="123000" />
     </task>
     <task id="LOCAL-00001" summary="抽象了接口">
       <created>1498719234643</created>
@@ -874,11 +874,18 @@
       <option name="project" value="LOCAL" />
       <updated>1498719234643</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="readme">
+      <created>1498719302922</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1498719302922</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15547000" />
+    <option name="totallyTimeSpent" value="15577000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
@@ -923,7 +930,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="抽象了接口" />
-    <option name="LAST_COMMIT_MESSAGE" value="抽象了接口" />
+    <MESSAGE value="readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="readme" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1386,26 +1394,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/zhangyingwei/smail/SmailTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="20" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="108">
-            <caret line="6" column="52" lean-forward="false" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+          <first_editor relative-caret-position="198">
+            <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
             <folding>
               <marker date="1498719287671" expanded="true" signature="157:362" ph="{...}" />
             </folding>
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/zhangyingwei/smail/SmailTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="52" lean-forward="false" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
